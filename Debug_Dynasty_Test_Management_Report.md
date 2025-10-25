@@ -7,6 +7,7 @@
    | Maureen Muriithi | Test Executor |
    | Donie Golanda    | Risk Analyst  |
 2. ## **Test Plan**
+
    Objectives
 
 - To verify the functionality of the features: Reset Game, Leaderboard, and Bonus Round.
@@ -15,6 +16,7 @@
 - To document and report on test execution status, metrics, and team findings.
 
 ### Scope (In & Out)
+
 In Scope:
 
 - Functional testing of all game features.
@@ -42,6 +44,17 @@ In Scope:
 - Whatsapp for communication
 - Markdown Editor: (e.g., VS Code) for report writing.
 - Screen Capture Tool: (e.g., Snipping Tool, ShareX) for defect evidence.
+
+## Schedule
+
+| Date                  | Time      | Phases    | Tasks                                                                       |
+| --------------------- | --------- | --------- | --------------------------------------------------------------------------- |
+| **Fri, Oct 24** | Morning   | Planning  | Draft Test Plan, Set up GitHub, Initial Risk Analysis,Create whatsapp group |
+|                       | Afternoon | Design    | Complete Risk Analysis, Design all Test Cases                               |
+|                       | Evening   | Execution | Begin executing test cases and logging initial defects.                     |
+| **Sat, Oct 25** | Morning   | Finalize  | Finish test execution, log all defects, monitor metrics.                    |
+|                       | Afternoon | Reporting | Gather all metrics, write team reflection.                                  |
+|                       | Evening   | Reporting | Assemble and review final `Group_Test_Management_Report.md`. and submit   |
 
 ## * Entry & Exit Criteria
 
@@ -83,15 +96,15 @@ In Scope:
 7. Risk-Coverage Pie Chart
    Add a real chart, here we can use excel to create a chart of risk
    add a screen shot
-8. Test Design & Execution| ID    | Feature | Steps | Expected Result | Actual Result | Risk Priority | Status/Pass/Fail |  |
-   | ----- | ------- | ----- | --------------- | ------------- | ------------- | ---------------- | - |
-   | TC-01 |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
+8. | Test Design & Execution | ID | Feature | Steps | Expected Result | Actual Result | Risk Priority | Status/Pass/Fail |
+   | ----------------------- | -- | ------- | ----- | --------------- | ------------- | ------------- | ---------------- |
+   | TC-01                   |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
 9. Defect Reporting
 
 - (Minimum 3 defects logged on GitHub Issues)
