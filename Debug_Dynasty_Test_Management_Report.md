@@ -69,6 +69,7 @@ Tools:
 6. Risk Analysis
    Risk Register (Minimum 6)
    Priority: Critical,High,Medium,Low
+
 | ID | Risk Description | Likelihood (1-10) | Impact (1-10) | Priority | Mitigation |
 |----|------------------|------------------|---------------|-----------|-------------|
 | R1 | 'Reset Game' button fails to clear game state or scores | 6 | 9 | Medium | Re-check state management logic; re-test after each change to reset function |
