@@ -7,6 +7,7 @@
    | Maureen Muriithi | Test Executor |
    | Donie Golanda    | Risk Analyst  |
 2. ## **Test Plan**
+
    Objectives
 
 - To verify the functionality of the features: Reset Game, Leaderboard, and Bonus Round.
@@ -15,6 +16,7 @@
 - To document and report on test execution status, metrics, and team findings.
 
 ### Scope (In & Out)
+
 In Scope:
 
 - Functional testing of all game features.
@@ -35,13 +37,24 @@ In Scope:
 
 - Team: 1 Test Manager, 1 Risk Analyst, 1 Test Executor.
 - System Under Test (SUT): index.html (local file).
-Tools:
+  Tools:
 - GitHub Repository: For version control of the report.
 - GitHub Issues: For defect tracking (mandatory).
 - Jira: For task management (Kanban board).
 - Whatsapp for communication
 - Markdown Editor: (e.g., VS Code) for report writing.
 - Screen Capture Tool: (e.g., Snipping Tool, ShareX) for defect evidence.
+
+## Schedule
+
+| Date                  | Time      | Phases    | Tasks                                                                       |
+| --------------------- | --------- | --------- | --------------------------------------------------------------------------- |
+| **Fri, Oct 24** | Morning   | Planning  | Draft Test Plan, Set up GitHub, Initial Risk Analysis,Create whatsapp group |
+|                       | Afternoon | Design    | Complete Risk Analysis, Design all Test Cases                               |
+|                       | Evening   | Execution | Begin executing test cases and logging initial defects.                     |
+| **Sat, Oct 25** | Morning   | Finalize  | Finish test execution, log all defects, monitor metrics.                    |
+|                       | Afternoon | Reporting | Gather all metrics, write team reflection.                                  |
+|                       | Evening   | Reporting | Assemble and review final `Group_Test_Management_Report.md`. and submit   |
 
 ## * Entry & Exit Criteria
 
@@ -70,32 +83,30 @@ Tools:
    Risk Register (Minimum 6)
    Priority: Critical,High,Medium,Low
 
-| ID | Risk Description | Likelihood (1-10) | Impact (1-10) | Priority | Mitigation |
-|----|------------------|------------------|---------------|-----------|-------------|
-| R1 | 'Reset Game' button fails to clear game state or scores | 6 | 9 | Medium | Re-check state management logic; re-test after each change to reset function |
-| R2 | 'Leaderboard' fails to save or display scores correctly from localStorage | 8 | 10 | High | Implement consistent localStorage key usage; clear cache before tests; re-test with boundary data |
-| R3 | 'Bonus Round' points not calculated or added to total correctly | 7 | 8 | Medium | Recheck the arithmetic logic; add unit test for bonus formula; verify updates after each round |
-| R4 | 'Leaderboard' data lost when browser cache is cleared | 5 | 7 | Medium | Document expected behavior; add “Save/Export” option for users if feasible |
-| R5 | UI freezes or lag occurs when restarting multiple times | 4 | 6 | Low | Optimize DOM updates; test reset cycles ≥10 times; monitor console for performance warnings |
-| R6 | Player confusion due to unclear success/error messages | 5 | 5 | Low | Improve message text and color cues; conduct quick usability feedback test |
+| ID | Risk Description                                                          | Likelihood (1-10) | Impact (1-10) | Priority | Mitigation                                                                                        |
+| -- | ------------------------------------------------------------------------- | ----------------- | ------------- | -------- | ------------------------------------------------------------------------------------------------- |
+| R1 | 'Reset Game' button fails to clear game state or scores                   | 6                 | 9             | Medium   | Re-check state management logic; re-test after each change to reset function                      |
+| R2 | 'Leaderboard' fails to save or display scores correctly from localStorage | 8                 | 10            | High     | Implement consistent localStorage key usage; clear cache before tests; re-test with boundary data |
+| R3 | 'Bonus Round' points not calculated or added to total correctly           | 7                 | 8             | Medium   | Recheck the arithmetic logic; add unit test for bonus formula; verify updates after each round    |
+| R4 | 'Leaderboard' data lost when browser cache is cleared                     | 5                 | 7             | Medium   | Document expected behavior; add “Save/Export” option for users if feasible                      |
+| R5 | UI freezes or lag occurs when restarting multiple times                   | 4                 | 6             | Low      | Optimize DOM updates; test reset cycles ≥10 times; monitor console for performance warnings      |
+| R6 | Player confusion due to unclear success/error messages                    | 5                 | 5             | Low      | Improve message text and color cues; conduct quick usability feedback test                        |
 
+### Risk Coverage Chart (Excel)
 
-7. Risk-Coverage Pie Chart
-   Add a real chart, here we can use excel to create a chart of risk
-   add a screen shot
-###  Risk Coverage Chart (Excel)
+git
 Below is the visual summary of risk distribution created in Excel:
 --Risk Coverage Chart:(https://github.com/juliesuarez/Debug-dynasty/blob/main/risk_chart.jpg)
 
-8. Test Design & Execution| ID    | Feature | Steps | Expected Result | Actual Result | Risk Priority | Status/Pass/Fail |  |
-   | ----- | ------- | ----- | --------------- | ------------- | ------------- | ---------------- | - |
-   | TC-01 |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
-   |       |         |       |                 |               |               |                  |  |
+8. | Test Design & Execution | ID | Feature | Steps | Expected Result | Actual Result | Risk Priority | Status/Pass/Fail |
+   | ----------------------- | -- | ------- | ----- | --------------- | ------------- | ------------- | ---------------- |
+   | TC-01                   |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
+   |                         |    |         |       |                 |               |               |                  |
 9. Defect Reporting
 
 - (Minimum 3 defects logged on GitHub Issues)
@@ -109,7 +120,8 @@ Below is the visual summary of risk distribution created in Excel:
 - 
 - 
 
-10. Test Monitoring & Metrics| Metric                  | Formula                             | Calculation | Result |
+10. Test Monitoring & Metrics
+| Metric                  | Formula                             | Calculation | Result |
     | ----------------------- | ----------------------------------- | ----------- | ------ |
     | Test Case Pass %        | (Passed / Total) × 100             |             |        |
     | Defect Density          | Defects / Test Cases                |             |        |
