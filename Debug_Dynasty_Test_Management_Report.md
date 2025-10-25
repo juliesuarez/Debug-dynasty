@@ -71,13 +71,19 @@ Tools:
    Priority: Critical,High,Medium,Low
 | ----- | ----------------- | ------ | ----- | --------- | -------------------- | 
 | ID | Risk Description | Likehood(1-10) | Impact(1-10) | Priority | Mitigation |
+| ----- | ----------------- | ------ | ----- | --------- | -------------------- | 
 | R1 | 'Reset Game' button fails to clear game state or scores | 6 | 9 | 54 | Re-check state management logic; re-test after each change to reset function|
 | ----- | ----------------- | ------ | ----- | --------- | -------------------- | 
 | R2 |  'Leaderboard' fails to save or display scores correctly from localStorage |   8 |  10|  80 |  Implement consistent localStorage key usage; clear cache before tests; re-test with boundary data   |
+| ----- | ----------------- | ------ | ----- | --------- | -------------------- | 
 | R3   | 'Bonus Round' points not calculated or added to total correctly  |   7 |  8 | 56 | Recheck the arithmetic logic; add unit test for bonus formula; verify updates after each round |
+| ----- | ----------------- | ------ | ----- | --------- | -------------------- | 
 | R4 | 'Leaderboard' data lost when browser cache is cleared|  5 | 7 | 35| Document expected behavior; add “Save/Export” option for users if feasible |
+| ----- | ----------------- | ------ | ----- | --------- | -------------------- | 
 | R5| UI freezes or lag occurs when restarting multiple times |  4| 6|  24 | Optimize DOM updates; test reset cycles ≥10 times; monitor console for performance warnings |
+| ----- | ----------------- | ------ | ----- | --------- | -------------------- | 
 | R6  |Player confusion due to unclear success/error messages | 5 | 5 | 25|Improve message text and color cues; conduct quick usability feedback test|
+| ----- | ----------------- | ------ | ----- | --------- | -------------------- | 
 
 
 7. Risk-Coverage Pie Chart
@@ -85,7 +91,7 @@ Tools:
    add a screen shot
 ###  Risk Coverage Chart (Excel)
 Below is the visual summary of risk distribution created in Excel:
---Risk Coverage Chart:(.\Debug-dynasty\risk_chart.jpg)
+--Risk Coverage Chart:(https://github.com/juliesuarez/Debug-dynasty/blob/main/risk_chart.jpg)
 
 8. Test Design & Execution| ID    | Feature | Steps | Expected Result | Actual Result | Risk Priority | Status/Pass/Fail |  |
    | ----- | ------- | ----- | --------------- | ------------- | ------------- | ---------------- | - |
