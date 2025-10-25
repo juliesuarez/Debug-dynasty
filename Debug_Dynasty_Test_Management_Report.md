@@ -83,17 +83,17 @@ In Scope:
    Risk Register (Minimum 6)
    Priority: Critical,High,Medium,Low
 
-| ID | Risk Description | Likelihood (1-10) | Impact (1-10) | Priority | Mitigation |
-|----|------------------|------------------|---------------|-----------|-------------|
-| R1 | 'Reset Game' button fails to clear game state or scores | 6 | 9 | Medium | Re-check state management logic; re-test after each change to reset function |
-| R2 | 'Leaderboard' fails to save or display scores correctly from localStorage | 8 | 10 | High | Implement consistent localStorage key usage; clear cache before tests; re-test with boundary data |
-| R3 | 'Bonus Round' points not calculated or added to total correctly | 7 | 8 | Medium | Recheck the arithmetic logic; add unit test for bonus formula; verify updates after each round |
-| R4 | 'Leaderboard' data lost when browser cache is cleared | 5 | 7 | Medium | Document expected behavior; add “Save/Export” option for users if feasible |
-| R5 | UI freezes or lag occurs when restarting multiple times | 4 | 6 | Low | Optimize DOM updates; test reset cycles ≥10 times; monitor console for performance warnings |
-| R6 | Player confusion due to unclear success/error messages | 5 | 5 | Low | Improve message text and color cues; conduct quick usability feedback test |
-
+| ID | Risk Description                                                          | Likelihood (1-10) | Impact (1-10) | Priority | Mitigation                                                                                        |
+| -- | ------------------------------------------------------------------------- | ----------------- | ------------- | -------- | ------------------------------------------------------------------------------------------------- |
+| R1 | 'Reset Game' button fails to clear game state or scores                   | 6                 | 9             | Medium   | Re-check state management logic; re-test after each change to reset function                      |
+| R2 | 'Leaderboard' fails to save or display scores correctly from localStorage | 8                 | 10            | High     | Implement consistent localStorage key usage; clear cache before tests; re-test with boundary data |
+| R3 | 'Bonus Round' points not calculated or added to total correctly           | 7                 | 8             | Medium   | Recheck the arithmetic logic; add unit test for bonus formula; verify updates after each round    |
+| R4 | 'Leaderboard' data lost when browser cache is cleared                     | 5                 | 7             | Medium   | Document expected behavior; add “Save/Export” option for users if feasible                      |
+| R5 | UI freezes or lag occurs when restarting multiple times                   | 4                 | 6             | Low      | Optimize DOM updates; test reset cycles ≥10 times; monitor console for performance warnings      |
+| R6 | Player confusion due to unclear success/error messages                    | 5                 | 5             | Low      | Improve message text and color cues; conduct quick usability feedback test                        |
 
 ### Risk Coverage Chart (Excel)
+
 git
 Below is the visual summary of risk distribution created in Excel:
 --Risk Coverage Chart:(https://github.com/juliesuarez/Debug-dynasty/blob/main/risk_chart.jpg)
@@ -120,7 +120,8 @@ Below is the visual summary of risk distribution created in Excel:
 - 
 - 
 
-10. Test Monitoring & Metrics| Metric                  | Formula                             | Calculation | Result |
+10. Test Monitoring & Metrics
+| Metric                  | Formula                             | Calculation | Result |
     | ----------------------- | ----------------------------------- | ----------- | ------ |
     | Test Case Pass %        | (Passed / Total) × 100             |             |        |
     | Defect Density          | Defects / Test Cases                |             |        |
