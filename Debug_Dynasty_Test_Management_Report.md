@@ -113,7 +113,10 @@ Below is the visual summary of risk distribution created in Excel:
     | ----------------------- | ----------------------------------- | ----------- | ------ |
     | Test Case Pass %        | (Passed / Total) × 100             |             |        |
     | Defect Density          | Defects / Test Cases                |             |        |
-    | Risk Coverage Ratio     | (Tested Risks / Total Risks) × 100 |             |        |
+    
+    | Risk Coverage Ratio     | (Tested Risks / Total Risks) × 100 |  5 / 6  |**83%**|
+-- *Note: Risk R6 (Low-priority usability) was excluded from testing in this cycle*
+
     | Regression Success Rate | (Passed / Total) × 100             |             |        |
 
 NOTE:  Regression Success Rate is for re-testing bugs after they are "fixed"
