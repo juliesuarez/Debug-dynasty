@@ -40,7 +40,7 @@ In Scope:
   Tools:
 - GitHub Repository: For version control of the report.
 - GitHub Issues: For defect tracking (mandatory).
-- Jira: For task management (Kanban board).
+- Jira: For task management (Kanban board). - C:\Users\julie\Downloads\Personal\software testing\5-group\Debug-dynasty\jira_task_tracking_tool.png
 - Whatsapp for communication
 - Markdown Editor: (e.g., VS Code) for report writing.
 - Screen Capture Tool: (e.g., Snipping Tool, ShareX) for defect evidence.
