@@ -125,20 +125,15 @@ NOTE:  Regression Success Rate is for re-testing bugs after they are "fixed"
 
 11. Reflection
 
-- Impact of Risk Analysis
-  (Discuss how the Risk Analysis (Deliverable 3) focused your team's effort. Did you spend more time on the Bonus Round and Leaderboard because they were "High Priority"?)
-- 
-- 
-- 
-- 
-- 
+11.1 Impact of Risk Analysis
+  (Discuss how the Risk Analysis (Deliverable 3) focused your team's effort. Did you spend more time on the Bonus Round and Leaderboard because they were "High Priority"?) : The Risk Analysis helped our team focus on the most critical areas first. Since the Leaderboard was rated High Priority and had the highest risk impact, we spent extra time testing and fixing it to make sure scores saved and displayed correctly. We also gave attention to the Bonus Round, but since its risks were Medium Priority, it came after the Leaderboard. Overall, the analysis guided us to manage time better and reduce issues in key features.
 
-7.2. Testing Trade-offs (Coverage, Time, Depth)
+11.2. Testing Trade-offs (Coverage, Time, Depth)
 
 (Discuss what you had to de-prioritize due to time. Did you sacrifice deep testing on low-risk features to ensure high-risk features were fully covered?)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-7.3. Team Collaboration
+11.3. Team Collaboration
 
 (Discuss how the team worked. Did using GitHub Issues and a Project board help or hinder? How did the 3 roles interact?)
 ------------------------------------------------------------------------------------------------------------------------
