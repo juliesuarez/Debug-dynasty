@@ -49,10 +49,10 @@ In Scope:
 
 | Date                  | Time      | Phases    | Tasks                                                                       |
 | --------------------- | --------- | --------- | --------------------------------------------------------------------------- |
-| **Fri, Oct 24** | Morning   | Planning  | Draft Test Plan, Set up GitHub, Initial Risk Analysis,Create whatsapp group |
+| **Oct 24-25** | Morning   | Planning  | Draft Test Plan, Set up GitHub, Initial Risk Analysis,Create whatsapp group |
 |                       | Afternoon | Design    | Complete Risk Analysis, Design all Test Cases                               |
 |                       | Evening   | Execution | Begin executing test cases and logging initial defects.                     |
-| **Sat, Oct 25** | Morning   | Finalize  | Finish test execution, log all defects, monitor metrics.                    |
+| **Oct 25** | Morning   | Finalize  | Finish test execution, log all defects, monitor metrics.                    |
 |                       | Afternoon | Reporting | Gather all metrics, write team reflection.                                  |
 |                       | Evening   | Reporting | Assemble and review final `Group_Test_Management_Report.md`. and submit   |
 
@@ -130,9 +130,8 @@ NOTE:  Regression Success Rate is for re-testing bugs after they are "fixed"
   The Risk Analysis helped our team focus on the most critical areas first. Since the Leaderboard was rated High Priority and had the highest risk impact, we spent extra time testing and fixing it to make sure scores saved and displayed correctly. We also gave attention to the Bonus Round, but since its risks were Medium Priority, it came after the Leaderboard. Overall, the analysis guided us to manage time better and reduce issues in key features.
 
 11.2. Testing Trade-offs (Coverage, Time, Depth)
-
-(Discuss what you had to de-prioritize due to time. Did you sacrifice deep testing on low-risk features to ensure high-risk features were fully covered?)
----------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------
+In our group Word Puzzle assignment, I worked as the test executor, responsible for testing and debugging the game to ensure it functioned correctly. My main task was rearranging words, identifying errors, and helping improve the puzzle’s overall performance. Through this role, I learned how to test and debug effectively while enhancing my teamwork and communication skills as we collaborated to achieve a successful outcome.
 
 11.3. Team Collaboration
 
