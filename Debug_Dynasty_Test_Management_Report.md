@@ -98,44 +98,23 @@ git
 Below is the visual summary of risk distribution created in Excel:
 --Risk Coverage Chart:(https://github.com/juliesuarez/Debug-dynasty/blob/main/risk_chart.jpg)
 
-8. | Test Design & Execution | ID | Feature | Steps | Expected Result | Actual Result | Risk Priority | Status/Pass/Fail |
-   | ----------------------- | -- | ------- | ----- | --------------- | ------------- | ------------- | ---------------- |
-   
-   
-   
-   | TC-01                   |Reset Game    | 1. Start a new game. 2. Play two rounds to gain a score. 3. Click "Reset Game" button.         | Score and progress reset to zero; new game starts cleanly.      |Works as expected.                 | Medium (R1)              |    Pass           |                  |
-   |                         |    |         |       |
-   
-   
-     TC-02                    |UI Feedback    |1. Enter incorrect word repeatedly. 2. Observe feedback message or color change.|    User receives clear “Try Again” message in red.  |
-Message unclear, color same as background.|  Low (R6) |
-|Fail|
+**Test Design & Execution**
+
+| ID    | Feature     | Steps                                                                                 | Expected Result                                               | Actual Result                                | Risk Priority | Status<br />Pass/Fail |
+| ----- | ----------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------- | -------------------------------------------- | ------------- | --------------------- |
+| TC-01 | Reset Game  | 1. Start new game<br />2. Play two rounds<br />3. Click Reset button                  | Score and progress reset to zero; new game starts cleanly.    | Works as expected                            | Medium (R1)   | pass                  |
+| TC-02 | UI Feedback | 1. Enter incorrect word repeatedly.<br />2. Observe feedback message or color change. | User receives clear “Try Again” message in red              | Message unclear, color same as background    | Low (R6)      | Fail                  |
+| TC-03 | Bonus Round | 1. Play three complete puzzles<br />2. Observe bonus round activation.              | Bonus round activates automatically; score doubles correctly. | Bonus round triggered but score not doubled. | Medium (R3)   | Fail                  |
+
+**9. Defect Reporting**
+
+(Minimum 3 defects logged on GitHub Issues)
+[BUG-01]: [https://github.com/Maureen-w/wk-8-database/issues/1]
+[BUG-02]: [https://github.com/Maureen-w/wk-8-database/issues/2]
+[BUG-03]: [https://github.com/Maureen-w/wk-8-database/issues/3]
 
 
-TC-03                   |Bonus Round   |
-| 1. Play three complete puzzles. 2. Observe bonus round activation.  |
-| Bonus round activates automatically; score doubles correctly.|  Bonus round triggered but score not doubled.| 
-| Medium (R3)  |
-Fail |
-
-
-
-
-9. Defect Reporting
-
-- (Minimum 3 defects logged on GitHub Issues)
-- [BUG-01]: [https://github.com/Maureen-w/wk-8-database/issues/1]
-- [BUG-02]: [https://github.com/Maureen-w/wk-8-database/issues/2]
-- [BUG-03]: [https://github.com/Maureen-w/wk-8-database/issues/3]
-- 
-- 
-- 
-- 
-- 
-- 
-
-10. Test Monitoring & Metrics
-    | Metric                  | Formula                             | Calculation | Result |
+10. Test Monitoring & Metrics| Metric                  | Formula                             | Calculation | Result |
     | ----------------------- | ----------------------------------- | ----------- | ------ |
     | Test Case Pass %        | (Passed / Total) × 100             |             |        |
     | Defect Density          | Defects / Test Cases                |             |        |
